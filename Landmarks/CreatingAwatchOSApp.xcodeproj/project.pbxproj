@@ -44,6 +44,7 @@
 		3F6AB9DF24CC245B007B9C0A /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394889229F292E00C47603 /* umbagog.jpg */; };
 		3F6AB9E024CC245B007B9C0A /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B73948A2229F3E2200C47603 /* charleyrivers.jpg */; };
 		3F6AB9E224CC249B007B9C0A /* WatchLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6AB9E124CC249B007B9C0A /* WatchLandmarkDetail.swift */; };
+		3F6AB9E424CC462E007B9C0A /* WatchMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6AB9E324CC462E007B9C0A /* WatchMapView.swift */; };
 		B7310DD1229F6839001079B9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD0229F6839001079B9 /* HexagonParameters.swift */; };
 		B7310DD3229F6CA9001079B9 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD2229F6CA9001079B9 /* Badge.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
@@ -155,6 +156,7 @@
 		3F6AB9BB24CC2302007B9C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6AB9BC24CC2302007B9C0A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		3F6AB9E124CC249B007B9C0A /* WatchLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarkDetail.swift; sourceTree = "<group>"; };
+		3F6AB9E324CC462E007B9C0A /* WatchMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMapView.swift; sourceTree = "<group>"; };
 		5A5FF1C2C19ADFFFAB5D9B14 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B7310DD0229F6839001079B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		B7310DD2229F6CA9001079B9 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 				3F6AB9BC24CC2302007B9C0A /* PushNotificationPayload.apns */,
 				3F6AB9B824CC2302007B9C0A /* Preview Content */,
 				3F6AB9E124CC249B007B9C0A /* WatchLandmarkDetail.swift */,
+				3F6AB9E324CC462E007B9C0A /* WatchMapView.swift */,
 			);
 			path = "WatchLandmarks Extension";
 			sourceTree = "<group>";
@@ -599,6 +602,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6AB9C924CC23A8007B9C0A /* Landmark.swift in Sources */,
+				3F6AB9E424CC462E007B9C0A /* WatchMapView.swift in Sources */,
 				3F6AB9CC24CC23A8007B9C0A /* Profile.swift in Sources */,
 				3F6AB9AF24CC2301007B9C0A /* HostingController.swift in Sources */,
 				3F6AB9CA24CC23A8007B9C0A /* UserData.swift in Sources */,

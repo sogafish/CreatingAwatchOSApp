@@ -40,6 +40,12 @@ struct WatchLandmarkDetail: View {
             
             Text(self.landmark.state)
                 .font(.caption)
+            
+            Divider()
+            
+            WatchMapView(landmark: self.landmark)
+                .scaledToFit()
+                .padding()
         }
         .padding(16)
         }
@@ -54,9 +60,9 @@ struct WatchLandmarkDetail_Previews: PreviewProvider {
             WatchLandmarkDetail(landmark: userData.landmarks[0])
                     .environmentObject(userData)
                     .previewDevice("Apple Watch Series 4 - 44mm")
-            WatchLandmarkDetail(landmark: userData.landmarks[4])
-                    .environmentObject(userData)
-                .previewDevice("Apple Watch Series 2 - 38mm")
+//            WatchLandmarkDetail(landmark: userData.landmarks[4])
+//                    .environmentObject(userData)
+//                .previewDevice("Apple Watch Series 2 - 38mm")
         }
     }
 }
