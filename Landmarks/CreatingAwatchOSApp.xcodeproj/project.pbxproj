@@ -75,6 +75,7 @@
 		3F6ABA1224CF0906007B9C0A /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B73948A2229F3E2200C47603 /* charleyrivers.jpg */; };
 		3F6ABA1424CF0995007B9C0A /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6ABA1324CF0995007B9C0A /* LandmarkRow.swift */; };
 		3F6ABA1624CF3E39007B9C0A /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6ABA1524CF3E39007B9C0A /* LandmarkList.swift */; };
+		3F6ABA1824CF406E007B9C0A /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6ABA1724CF406E007B9C0A /* Filter.swift */; };
 		B7310DD1229F6839001079B9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD0229F6839001079B9 /* HexagonParameters.swift */; };
 		B7310DD3229F6CA9001079B9 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD2229F6CA9001079B9 /* Badge.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
@@ -197,6 +198,7 @@
 		3F6AB9F924CDB537007B9C0A /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
 		3F6ABA1324CF0995007B9C0A /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		3F6ABA1524CF3E39007B9C0A /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		3F6ABA1724CF406E007B9C0A /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		5A5FF1C2C19ADFFFAB5D9B14 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B7310DD0229F6839001079B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		B7310DD2229F6CA9001079B9 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
@@ -337,6 +339,7 @@
 				3F6AB9F224CDB537007B9C0A /* Preview Content */,
 				3F6ABA1324CF0995007B9C0A /* LandmarkRow.swift */,
 				3F6ABA1524CF3E39007B9C0A /* LandmarkList.swift */,
+				3F6ABA1724CF406E007B9C0A /* Filter.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -745,6 +748,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6AB9EF24CDB536007B9C0A /* ContentView.swift in Sources */,
+				3F6ABA1824CF406E007B9C0A /* Filter.swift in Sources */,
 				3F6ABA0024CF0905007B9C0A /* Profile.swift in Sources */,
 				3F6AB9FF24CF0905007B9C0A /* Data.swift in Sources */,
 				3F6ABA0124CF0905007B9C0A /* Hike.swift in Sources */,
