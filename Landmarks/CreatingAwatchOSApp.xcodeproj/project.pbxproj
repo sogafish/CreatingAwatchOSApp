@@ -73,6 +73,7 @@
 		3F6ABA1024CF0906007B9C0A /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B739488C229F292E00C47603 /* twinlake.jpg */; };
 		3F6ABA1124CF0906007B9C0A /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394889229F292E00C47603 /* umbagog.jpg */; };
 		3F6ABA1224CF0906007B9C0A /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B73948A2229F3E2200C47603 /* charleyrivers.jpg */; };
+		3F6ABA1424CF0995007B9C0A /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6ABA1324CF0995007B9C0A /* LandmarkRow.swift */; };
 		B7310DD1229F6839001079B9 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD0229F6839001079B9 /* HexagonParameters.swift */; };
 		B7310DD3229F6CA9001079B9 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7310DD2229F6CA9001079B9 /* Badge.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
@@ -193,6 +194,7 @@
 		3F6AB9F624CDB537007B9C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F6AB9F824CDB537007B9C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6AB9F924CDB537007B9C0A /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		3F6ABA1324CF0995007B9C0A /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		5A5FF1C2C19ADFFFAB5D9B14 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		B7310DD0229F6839001079B9 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		B7310DD2229F6CA9001079B9 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
@@ -331,6 +333,7 @@
 				3F6AB9F824CDB537007B9C0A /* Info.plist */,
 				3F6AB9F924CDB537007B9C0A /* MacLandmarks.entitlements */,
 				3F6AB9F224CDB537007B9C0A /* Preview Content */,
+				3F6ABA1324CF0995007B9C0A /* LandmarkRow.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -744,6 +747,7 @@
 				3F6ABA0124CF0905007B9C0A /* Hike.swift in Sources */,
 				3F6AB9ED24CDB536007B9C0A /* AppDelegate.swift in Sources */,
 				3F6AB9FE24CF0905007B9C0A /* UserData.swift in Sources */,
+				3F6ABA1424CF0995007B9C0A /* LandmarkRow.swift in Sources */,
 				3F6AB9FD24CF0905007B9C0A /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
