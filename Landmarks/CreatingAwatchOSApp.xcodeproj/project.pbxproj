@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F5AB48E24D556E500142C84 /* NavigationPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5AB48D24D556E500142C84 /* NavigationPrimary.swift */; };
+		3F5AB48F24D558BB00142C84 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394879229F1B3F00C47603 /* CircleImage.swift */; };
 		3F6AB99F24CC2300007B9C0A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6AB99D24CC2300007B9C0A /* Interface.storyboard */; };
 		3F6AB9A124CC2301007B9C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6AB9A024CC2301007B9C0A /* Assets.xcassets */; };
 		3F6AB9A824CC2301007B9C0A /* WatchLandmarks Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F6AB9A724CC2301007B9C0A /* WatchLandmarks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -755,6 +756,7 @@
 				3F5AB48E24D556E500142C84 /* NavigationPrimary.swift in Sources */,
 				3F6ABA0024CF0905007B9C0A /* Profile.swift in Sources */,
 				3F6AB9FF24CF0905007B9C0A /* Data.swift in Sources */,
+				3F5AB48F24D558BB00142C84 /* CircleImage.swift in Sources */,
 				3F6ABA0124CF0905007B9C0A /* Hike.swift in Sources */,
 				3F6ABA1624CF3E39007B9C0A /* LandmarkList.swift in Sources */,
 				3F6AB9ED24CDB536007B9C0A /* AppDelegate.swift in Sources */,
